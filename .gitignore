@@ -1,1 +1,13 @@
 venv/
+# Pytest cache
+.pytest_cache/
+
+# Ignore all report-related folders in root
+/report*/
+/reports*/
+//smoke_report*/
+//smoke_reports*/
+
+# Optional: ignore HTML files in the root
+/*.html
+/smoke_reports/
