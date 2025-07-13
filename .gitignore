@@ -11,3 +11,4 @@ venv/
 # Optional: ignore HTML files in the root
 /*.html
 /smoke_reports/
+**/.pytest_cache/
