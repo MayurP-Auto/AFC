@@ -12,3 +12,4 @@ venv/
 /*.html
 /smoke_reports/
 **/.pytest_cache/
+__pycache__/
