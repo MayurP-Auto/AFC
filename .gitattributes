@@ -1,0 +1,12 @@
+# Treat all text files normally
+* text=auto
+
+# Force specific files to use LF endings
+*.sh text eol=lf
+*.py text eol=lf
+
+# Force XML files to use LF (optional)
+*.xml text eol=lf
+
+# For Windows IDE config files, use native (CRLF)
+.idea/** text eol=crlf
